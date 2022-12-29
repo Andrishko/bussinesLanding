@@ -1,0 +1,161 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul[class] {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Graphik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+  color: #374754;
+}
+
+.header {
+  padding-top: 55px;
+  color: #FFFFFF;
+  margin: 0 auto;
+  background-image: url(../images/header_fon.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.container {
+  max-width: 1440px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.header__top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 115px 55px;
+  padding: 0 40px;
+}
+
+.header__top nav {
+  margin-right: 25px;
+}
+
+.menu {
+  display: flex;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  margin-right: auto;
+}
+
+/* .menu__element {
+  padding: 10px;
+} */
+
+.menu__element+.menu__element {
+  margin-left: 31px;
+}
+
+.menu__element-link {
+  padding: 10px;
+  color: #FFFFFF;
+}
+
+.logo__link {
+  padding: 10px;
+}
+
+.header__social-list {
+  display: flex;
+  margin-left: auto;
+}
+
+.header__social-item+.header__social-item {
+  margin-left: 27px;
+}
+
+.header__inner {
+  text-align: center;
+  width: 766px;
+  margin: 0 auto;
+
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+}
+
+.header__title {
+  margin: 0 auto;
+  width: 672px;
+  font-weight: 700;
+  font-size: 74px;
+  line-height: 84px;
+  letter-spacing: 0.2px;
+}
+
+.header__title-text {
+  margin: 27px 0 60px;
+}
+
+.header__btn {
+  background: #2091F9;
+  border-radius: 35px;
+  border: none;
+  color: #fff;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  padding: 16px 62px;
+  margin-bottom: 358px;
+}
